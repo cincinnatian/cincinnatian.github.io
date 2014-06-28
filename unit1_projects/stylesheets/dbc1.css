@@ -22,3 +22,8 @@ h5 {
 	color: blue;
 	font-style: italic;
 }
+
+#boldgreentext{
+	font-weight: bold;
+	color: green;
+}
