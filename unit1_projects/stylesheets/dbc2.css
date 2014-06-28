@@ -21,7 +21,8 @@ aside{
 .column a:hover {color: blue;}
 
 section{
-	
+	height = 35px;
+	width = 35px;
 	float: left;
 }
 
