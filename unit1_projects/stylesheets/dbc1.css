@@ -1,0 +1,24 @@
+p {
+	font-size: medium;
+	color: red;
+}
+
+h2 {
+	color: blue;
+}
+
+h4 {
+
+	color: green;
+}
+
+h5 {
+
+	font-size: small;
+}
+
+.blueitalictext{
+	font-size: small;
+	color: blue;
+	font-style: italic;
+}
