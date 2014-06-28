@@ -1,0 +1,35 @@
+header{
+	text-align: center;
+	border: 3px solid red;
+	height: 50px;
+	margin: 10px;
+	padding: 5px;
+	width: 50px;
+}
+
+aside{
+	float: right;
+}
+
+#imagepositioner {
+	height: 25px;
+	width: 25px;
+}
+
+.column a:link {color: red;}
+
+.column a:hover {color: blue;}
+
+section{
+	
+	float: left;
+}
+
+footer{
+	text-align: center
+	border: 3px solid red;
+	height: 50px;
+	margin: 10px;
+	padding: 5px;
+	width: 50px;
+}
