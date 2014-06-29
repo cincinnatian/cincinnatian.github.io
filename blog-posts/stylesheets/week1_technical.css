@@ -1,9 +1,9 @@
-title{
-	font-size: large;
+#first{
+	font-size: small;
 	font-color: blue;
 }
 
-p{
+#second{
 	font-size: medium;
 	font-color: red;
 }
