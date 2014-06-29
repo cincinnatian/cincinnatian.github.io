@@ -1,0 +1,9 @@
+header{
+	font-size: large;
+	font-color: blue;
+}
+
+h2, h3{
+	font-size: medium;
+	font-color: red;
+}
