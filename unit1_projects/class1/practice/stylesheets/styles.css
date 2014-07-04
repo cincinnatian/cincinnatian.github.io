@@ -19,7 +19,7 @@ a {
 
 }
 
-#header.nav:hover {color: black;
+.nav:hover {color: black;
         background-color: blue;
         }
 
