@@ -13,12 +13,12 @@ p {
   margin: 1em;
 }
 
-a:link {
+a {
   color: #1D766F;
   text-decoration: none;
 }
 
-a:hover {color: black;
+a.nav:hover {color: black;
         background-color: blue;
         }
 
