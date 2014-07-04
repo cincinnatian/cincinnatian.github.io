@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {background-color: blue;}
+a:hover {font-color: blue;}
 
 h1 {
   font-size: 2.2em;
