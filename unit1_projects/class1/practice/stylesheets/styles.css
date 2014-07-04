@@ -16,9 +16,10 @@ p {
 a {
   color: #1D766F;
   text-decoration: none;
+
 }
 
-a.nav:hover {color: black;
+#header.nav.a:hover {color: black;
         background-color: blue;
         }
 
