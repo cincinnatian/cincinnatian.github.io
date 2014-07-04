@@ -13,7 +13,7 @@ p {
   margin: 1em;
 }
 
-a {
+a:link {
   color: #1D766F;
   text-decoration: none;
 }
