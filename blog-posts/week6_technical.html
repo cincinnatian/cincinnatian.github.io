@@ -1,0 +1,39 @@
+<html>
+
+
+
+
+<link rel="stylesheet" type="text/css" href= "stylesheets/week1_technical.css">
+
+
+<body>
+
+
+
+<p id="first">
+<strong>Blocks, Procs, and lambda</strong>
+
+</p>
+
+
+
+
+<p id="second">
+Blocks, procs, and lambdas are three ways of passing blocks of code to a method. 
+
+When blocks are passed to a method, they are not executed unless the method has a yield in it where the block will be executed, and then the rest of the method will continue. It is good if you are just going to call the block of code for that particular method. However, if you want to reuse that block of code later with another method you would not be able to do so without retyping the whole thing.
+
+Both procs and lambdas can be used as variables to  store a block of code. Then they can be reused with multiple methods. Lambdas and Procs are similar in that they not only need to be passed as parameters to a method, but the method needs to use the call method of the respective lambda or proc in order to have them run. lambdas differ from procs in how they handle parameters and how they handle returns. 
+
+lambdas are declared with a certain number of parameters. If they are called by a method without the exact number of parameters that they had been declared with, they will raise an argument error. procs are also declared with a certain number of parameters. However, when they are called if the number of parameters is less than those that were declared in the proc, the remaining parameters will have a value of nil.
+
+As for returns, lambdas will ignore returns that are called within a method call and will run to the end of the method that called the lambda. Procs will stop running after a return is called. So, any code below the return when executing a Proc will not run.
+</p>
+
+<p>
+
+</p>
+
+</body>
+</html>
+
