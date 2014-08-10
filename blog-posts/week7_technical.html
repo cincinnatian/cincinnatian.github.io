@@ -1,0 +1,39 @@
+<html>
+
+
+
+
+<link rel="stylesheet" type="text/css" href= "stylesheets/week1_technical.css">
+
+
+<body>
+
+
+
+<p id="first">
+<strong>SQL INjection</strong>
+
+</p>
+
+
+
+
+<p id="second">
+SQL Injection is when malicious code typed into a user interface from a website executes that "injected" sql statement and operates the underlying program in a way that was not intended by the original software author.
+
+The syntax of the injection is of different types. For example if an input requires a username and the malicious person types a true statement with a return value of true, then the underlying select statement might bring forth all the associated secure information such as passwords, socials, etc.
+
+One example of a true statement that isn't necessarily obvious is that ""=="" is true. This would render the underlying select statement as fulfilling a purpose it was not intended.
+
+Another way to cause problems is through the use of batched sql statements. Since sql allows statements to be submitted in multiples as long as they are separated by semicolons. You could add any statement after a semicolon to fulfill what the user is supposed to input and make it do whatever you want after the semicolon. For example ;Drop TAble would cause the table to be deleted. BAD STUFF!!
+
+The only proven way according to w3schools to prevent injection is through sql parameters which cause what is passed into variables through user interfaces to be treated literally, and not have the ability to change the functionality of code.
+</p>
+
+<p>
+
+</p>
+
+</body>
+</html>
+
